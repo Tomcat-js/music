@@ -32,6 +32,21 @@ main {
     padding: 0.5%;
 }
 
+footer {
+    background-color: #fff;
+}
+
+.footer_text {
+    font-size: 100%;
+    padding: 2% 1%;
+    border-top: 20px solid black;
+    text-align: center;
+}
+
+.image_credits {
+    font-size: 100%;
+}
+
 @media only screen and (max-width: 600px) {
     main {
         display: grid;
