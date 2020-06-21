@@ -1,0 +1,41 @@
+body {
+    font-family: 'Libre Caslon Display', serif;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1%;
+}
+
+.title {
+    font-size: 400%;
+    border-bottom: 1px solid white;
+}
+
+.sub_title {
+    font-size: 250%;
+    color: black;
+    background-color: #fff;
+    padding: 0.5%;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: grid;
+        grid-template-columns: minmax(200px, 1fr); 
+    }
+
+}
